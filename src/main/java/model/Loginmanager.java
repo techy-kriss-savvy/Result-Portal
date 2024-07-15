@@ -37,8 +37,21 @@ public class Loginmanager extends HttpServlet {
 				pw.println("<html><body><center><h3><i>Login Successful !</i></h3></center></body></html>");
 			  
 		  }
+		  else if(email.equals("admin@gmail.com")&&pass.equals("admin")) {
+			  
+			  HttpSession hsp=req.getSession();
+			  hsp.setAttribute("email", email);
+			  
+			  pw.print("test run ok");
+			  
+		  }
+		  
+		  
+		  
+		  
+		  
 		  else {
-			      req.setAttribute("errorMessage", "Invalid username or password" );
+			      req.setAttribute("errorMessage", "Invalid username or password !" );
 				  RequestDispatcher rd1=req.getRequestDispatcher("invalid.jsp");
 				rd1.forward(req, res);
 				

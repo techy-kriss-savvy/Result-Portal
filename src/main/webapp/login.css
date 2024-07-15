@@ -1,0 +1,28 @@
+@charset "UTF-8";
+ body{
+	background-image: url("background.jpg");
+	background-size: cover;
+	background-color: rgba(117, 139, 129, 0.5);
+    background-blend-mode: lighten;
+}
+
+
+#container{
+  
+	padding-top: 30px;
+	width: 300px;
+	height: 300px;
+	margin-top: 150px;
+	margin-left: 580px;
+	background-color:rgba(221, 187, 255, 1);
+	background-blend-mode: lighten;
+	border-radius: 20%;
+}
+#q{
+	height: 50px;
+	
+}
+
+#w{
+	height: 50px;
+}
