@@ -6,6 +6,15 @@
     background-blend-mode: lighten;
 }
 
+.box1{
+	background-color: rgba(221, 187, 255, 1);
+}
+.box1:hover{
+     
+	padding: 4px;
+	background-color: white;
+
+}
 
 #container{
   
@@ -13,7 +22,7 @@
 	width: 300px;
 	height: 300px;
 	margin-top: 150px;
-	margin-left: 580px;
+	margin-left: 550px;
 	background-color:rgba(221, 187, 255, 1);
 	background-blend-mode: lighten;
 	border-radius: 20%;

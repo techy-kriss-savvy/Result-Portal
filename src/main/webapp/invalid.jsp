@@ -32,7 +32,7 @@
         String errorMessage = (String) request.getAttribute("errorMessage");
         if (errorMessage != null) {
     %>
-       <center> <p style="color:red;"><%= errorMessage %></p></center>
+       <center> <p style="color:red;"><b><%= errorMessage %></b></p></center>
     <% 
         } 
     %>
